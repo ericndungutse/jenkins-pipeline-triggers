@@ -1,0 +1,20 @@
+[
+    {
+        "label": "socket",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "socket",
+        "description": "socket",
+        "detail": "socket",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "view_machine_data",
+        "description": "view_machine_data",
+        "peekOfCode": "def main():\n    hostname = socket.gethostname()\n    print(f\"Name of the server: {hostname}\")\nif __name__ == \"__main__\":\n    main()",
+        "detail": "view_machine_data",
+        "documentation": {}
+    }
+]
