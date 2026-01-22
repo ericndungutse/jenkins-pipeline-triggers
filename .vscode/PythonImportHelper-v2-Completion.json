@@ -9,11 +9,20 @@
         "documentation": {}
     },
     {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
         "label": "main",
         "kind": 2,
         "importPath": "view_machine_data",
         "description": "view_machine_data",
-        "peekOfCode": "def main():\n    hostname = socket.gethostname()\n    print(f\"Name of the server: {hostname}\")\nif __name__ == \"__main__\":\n    main()",
+        "peekOfCode": "def main():\n    hostname = socket.gethostname()\n    print(f\"Name of the server: {hostname}\")\n    print(f\"Current working directory: {os.getcwd()}\")\nif __name__ == \"__main__\":\n    main()",
         "detail": "view_machine_data",
         "documentation": {}
     }
